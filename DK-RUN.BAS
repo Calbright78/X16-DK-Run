@@ -45,6 +45,9 @@
 
 
 3000 REM =====MAIN GAME LOOP=====
+3010 GOSUB 5000: REM =====GAME SCREEN SETUP=====
+
+
 
 
 
@@ -58,6 +61,13 @@
 
 
 
+5000 REM =====GAME SCREEN SETUP=====
+5010 COLOR 1,0
+5020 CLS
+
+
+
+5999 RETURN
 
 
 
